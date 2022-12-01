@@ -2,6 +2,14 @@
 
 Stretch layout design for membrane. This will probably be merged into membrane once the kinks have been worked out.
 
+## Dependency
+
+Currently only available as a git dep.
+
+```clojure
+membrane.alpha/stretch {:git/sha "c2aec87dc04db36ca23c9d88888c561dac7b198a" :git/url "https://github.com/phronmophobic/membrane.alpha.stretch"}
+```
+
 ## Usage
 
 With membrane, layout is just data transformation. All the clojure tools for generic data manipulation apply. The goal of this library is to supply layout specific helpers.

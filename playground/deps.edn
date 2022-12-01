@@ -1,6 +1,9 @@
 {:paths ["src"]
  :deps {org.clojure/clojure {:mvn/version "1.10.3"}
-        membrane.alpha/stretch {:local/root "../"}}
+        membrane.alpha/stretch {;;:local/root "../"
+                                :git/sha "c2aec87dc04db36ca23c9d88888c561dac7b198a"
+                                :git/url "https://github.com/phronmophobic/membrane.alpha.stretch"
+                                }}
  :aliases
  {:project
   {:extra-deps
