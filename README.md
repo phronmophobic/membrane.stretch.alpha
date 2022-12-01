@@ -8,7 +8,7 @@ With membrane, layout is just data transformation. All the clojure tools for gen
 
 Almost all layout boils down to measuring elements (see `membrane.ui/bounds`), partitioning space, and moving things around (see `membrane.ui/translate`).
 
-As an example, let's take a lookout the implementation of `vlayout`:
+As an example, let's take a look at the implementation of `vlayout`:
 
 ```clojure
 (defn vlayout
