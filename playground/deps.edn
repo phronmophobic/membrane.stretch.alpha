@@ -1,0 +1,7 @@
+{:paths ["src"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.3"}
+        membrane.alpha/stretch {:local/root "../"}}
+ :aliases
+ {:project
+  {:extra-deps
+   {com.phronemophobic.membrane/skialib-macosx-aarch64 {:mvn/version "0.9.31.0-beta"}}}}}
