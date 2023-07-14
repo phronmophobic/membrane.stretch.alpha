@@ -6,4 +6,7 @@
  :aliases
  {:project
   {:extra-deps
-   {com.phronemophobic.membrane/skialib-macosx-aarch64 {:mvn/version "0.9.31.0-beta"}}}}}
+   {com.phronemophobic.membrane/skialib-macosx-aarch64 {:mvn/version "0.9.31.0-beta"}}}
+  :build {:deps {io.github.clojure/tools.build {:git/tag "v0.8.3" :git/sha "0d20256"}
+                 slipset/deps-deploy {:mvn/version "RELEASE"}}
+          :ns-default build}}}
