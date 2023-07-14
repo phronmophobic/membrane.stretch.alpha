@@ -2,7 +2,7 @@
   (:require [clojure.tools.build.api :as b]
             [clojure.string :as str]))
 
-(def lib 'com.phronemophobic.membrane.alpha/stretch)
+(def lib 'com.phronemophobic/membrane.stretch.alpha)
 (def version "0.1.0")
 (def class-dir "target/classes")
 (def basis (b/create-basis {:project "deps.edn"}))
