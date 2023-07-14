@@ -7,7 +7,7 @@ Stretch layout design for membrane. This will probably be merged into membrane o
 Currently only available as a git dep.
 
 ```clojure
-membrane.alpha/stretch {:git/sha "c2aec87dc04db36ca23c9d88888c561dac7b198a" :git/url "https://github.com/phronmophobic/membrane.alpha.stretch"}
+com.phronemophobic/membrane.stretch.alpha {:mvn/version "0.1.0"}
 ```
 
 ## Usage
