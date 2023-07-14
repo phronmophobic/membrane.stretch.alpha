@@ -1,4 +1,4 @@
-# membrane.alpha.stretch
+# membrane.stretch.alpha
 
 Stretch layout design for membrane. This will probably be merged into membrane once the kinks have been worked out.
 
